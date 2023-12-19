@@ -1,7 +1,7 @@
 package com.carro.app.entities;
-
-import jakarta.persistence.*;
 import lombok.*;
+
+import javax.persistence.*;
 
 
 @Entity
