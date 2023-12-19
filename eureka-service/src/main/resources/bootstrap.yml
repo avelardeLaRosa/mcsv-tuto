@@ -4,7 +4,4 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://localhost:8083
-logging:
-  level:
-    com.netflix.eureka: DEBUG
+      uri: http://localhost:8081
