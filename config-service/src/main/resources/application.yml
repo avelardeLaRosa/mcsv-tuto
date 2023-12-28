@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: multiples-instance
           uri: https://github.com/avelardeLaRosa/mcsv-tuto
           search-paths: config-data
   application:
