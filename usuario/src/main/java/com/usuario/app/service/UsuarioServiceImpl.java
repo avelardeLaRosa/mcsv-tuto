@@ -61,13 +61,13 @@ public class UsuarioServiceImpl implements IUsuarioService {
 
     @Override
     public List<CarroModel> getCarros(long usuarioId) {
-        List<CarroModel> carroModels = restTemplate.getForObject("http://localhost:8081/carro/usuario/" + usuarioId, List.class);
+        List<CarroModel> carroModels = restTemplate.getForObject("http://carro-service/carro/usuario/" + usuarioId, List.class);
         return carroModels;
     }
 
     @Override
     public List<MotoModel> getMotos(long usuarioId) {
-        List<MotoModel> motoModels = restTemplate.getForObject("http://localhost:8082/moto/usuario/" + usuarioId, List.class);
+        List<MotoModel> motoModels = restTemplate.getForObject("http://moto-service/moto/usuario/" + usuarioId, List.class);
         return motoModels;
     }
 
