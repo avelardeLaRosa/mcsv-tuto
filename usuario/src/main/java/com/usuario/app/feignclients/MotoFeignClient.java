@@ -1,6 +1,5 @@
 package com.usuario.app.feignclients;
 
-import com.usuario.app.models.CarroModel;
 import com.usuario.app.models.MotoModel;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
